@@ -20,7 +20,7 @@
  }
  
  .principal {
-    background-image: url("img/background.png");
+    background-image: url("background.png");
     background-repeat: no-repeat;
     background-size: contain;
     align-items: center;
@@ -35,7 +35,7 @@
 
  .container_botao {
     background-color: var(--botao-azul);
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 1em;
     color: var(--branco-principal);
     display: block;
@@ -72,7 +72,7 @@
 
 .descricao__titulo {
    font-weight: 700;
-   font-size: 48px;
+   font-size: 70px;
    color: var(--branco-principal);
    margin-bottom: 0.1em;
 }
@@ -80,6 +80,19 @@
 .descricao__texto {
    color: var(--cinza-secundario);
 }
+
+.secundario__botao {
+   display: inline-block;
+   margin-top: 1em;
+}
+
+.conteiner_descricao {
+   padding: 2em;
+}
+
+
+
+
 
 
  
